@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8"name="viewport"content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
 <title>LenniNat.com</title>
 <script>
-fetch('https://api2.sololearn.com/v2/codeplayground/usercodes/W6NfXkKAQ73Q').then(I=>I.json()).then(i=>document.querySelector('html').append(document.createRange().createContextualFragment(i.data.sourceCode)))
+fetch('https://api2.sololearn.com/v2/codeplayground/usercodes/W6NfXkKAQ73Q').then(I=>I.json()).then(i=>document.querySelector('body').append(document.createRange().createContextualFragment(i.data.sourceCode)))
 </script>
 </head>
+<body></body>
 </html>
