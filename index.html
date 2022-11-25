@@ -5,8 +5,7 @@
 <link rel="icon" href="/favicon-32x32.png">
 <title>LenniNat.com</title>
 <script>
-fetch('https://api2.sololearn.com/v2/codeplayground/usercodes/W6NfXkKAQ73Q').then(I=>I.json()).then(i=>
-var newHTML=document.open("text/html","replace");newHTML.write(i.data.sourceCode);newHTML.close())
+fetch('https://api2.sololearn.com/v2/codeplayground/usercodes/W6NfXkKAQ73Q').then(I=>I.json()).then(i=>{document.open("text/html","replace");document.write(i.data.sourceCode);document.close()})
 </script>
 </head>
 <body></body>
